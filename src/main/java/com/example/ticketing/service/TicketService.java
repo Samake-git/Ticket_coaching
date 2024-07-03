@@ -155,7 +155,7 @@ public class TicketService {
 
     private void notifyUsers(Ticket ticket, String subject, String body) {
         // Suppose you have a list of user emails
-        List<String> userEmails = List.of("samakebakary036@gmail.com", "doolcoumba@gmail.com");
+        List<String> userEmails = List.of("exemple@gmail.com", "test@gmail.com");
 
         for (String email : userEmails) {
             emailService.sendEmail(email, subject, body);
